@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\woosangje\\Desktop\\공부\\Tutorials\\Csharp-study\\c09property\\property09.csproj",
+      "projectUniqueName": "C:\\Users\\woosangje\\Desktop\\공부\\GitStudy\\Csharp-study\\c09property\\property09.csproj",
       "projectName": "property09",
-      "projectPath": "C:\\Users\\woosangje\\Desktop\\공부\\Tutorials\\Csharp-study\\c09property\\property09.csproj",
+      "projectPath": "C:\\Users\\woosangje\\Desktop\\공부\\GitStudy\\Csharp-study\\c09property\\property09.csproj",
       "packagesPath": "C:\\Users\\woosangje\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\woosangje\\Desktop\\공부\\Tutorials\\Csharp-study\\c09property\\obj\\",
+      "outputPath": "C:\\Users\\woosangje\\Desktop\\공부\\GitStudy\\Csharp-study\\c09property\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\woosangje\\AppData\\Roaming\\NuGet\\NuGet.Config",
