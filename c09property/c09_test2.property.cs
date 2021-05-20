@@ -5,7 +5,8 @@ using System.Linq;
 using System.Threading.Tasks;
 namespace property09
 {
-    class MainApp
+    //정답
+   /* class MainApp
     {
         static void Main(string[] args)
         {
@@ -15,7 +16,7 @@ namespace property09
             var complex = new { Real = 3, Imaginary = -12 };
             Console.WriteLine("Real:{0}, Imaginary:{1}", complex.Real, complex.Imaginary);
         }
-    }
+    }*/
 
     /*class MainApp
     {
