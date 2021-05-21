@@ -3,3 +3,5 @@
 
 05/18
 05/20 배열과 system.array조금
+
+05.21 system.array 다시 복습하자!
