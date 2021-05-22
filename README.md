@@ -5,3 +5,4 @@
 05/20 배열과 system.array조금
 
 05.21 system.array 다시 복습하자!
+05/22 system.array복습, 셀렉터 공부
