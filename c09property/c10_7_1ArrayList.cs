@@ -5,7 +5,8 @@ using System.Text;
 
 namespace UsingList
 {
-  /*  class MainApp
+    
+   /* class MainApp
     {
         static void Main(string[] args)
         {
@@ -37,4 +38,5 @@ namespace UsingList
             Console.WriteLine();
         }
     }*/
+
 }
