@@ -7,7 +7,7 @@ namespace UsingHashtable
 {
     //Hashtable
     /*
-   class MainApp
+    class MainApp
     {
         static void Main(string[] args)
         {
@@ -23,7 +23,6 @@ namespace UsingHashtable
             Console.WriteLine(ht["셋"]);
             Console.WriteLine(ht["넷"]);
             Console.WriteLine(ht["다섯"]);
-
         }
     }*/
 }

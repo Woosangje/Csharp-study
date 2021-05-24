@@ -5,8 +5,8 @@ using System.Text;
 
 namespace UsingList
 {
-    
-   /* class MainApp
+    /*
+   class MainApp
     {
         static void Main(string[] args)
         {
@@ -34,9 +34,9 @@ namespace UsingList
             list.Add("def");
 
             for (int i = 0; i < list.Count; i++)
-                Console.Write("{0} ", list[i]);
+                Console.Write("{0}", list[i]);
             Console.WriteLine();
         }
-    }*/
-
+    }
+    */
 }
