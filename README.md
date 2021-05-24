@@ -7,3 +7,4 @@
 05.21 system.array 다시 복습하자!
 05/22 system.array복습, 셀렉터 공부
 05/23 인덱서 밖에 안함,,
+05/24 이력서쓰느라 조금밖에 Enumerable
