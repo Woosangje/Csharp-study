@@ -7,7 +7,7 @@ namespace Indexer
 {
     //인덱서(Indexer)는 인덱스(Index)를 이용해서 객체 내의 데이터에 접근 하게 해주는 프로퍼티라고 생각하면 이해하기 쉽습니다.
     //객체를 마치 배열처럼 사용할 수 있게 해주지요
-    /*class MyList
+   /*class MyList
     {
         private int[] array;
 
@@ -48,5 +48,7 @@ namespace Indexer
                     Console.WriteLine(list[i]);//데이터를 얻어올 때도 인덱스를 이용합니다.
             }
         }
-    }*/
+    }
+   */
+  
 }
