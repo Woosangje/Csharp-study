@@ -9,7 +9,7 @@ namespace This
         private string Name;
         private string Position;
 
-        public void  SetName(string Name)
+        public void SetName(string Name)
         {
             this.Name = Name;
         }
