@@ -5,7 +5,7 @@ using MyExtension;
 
 namespace MyExtension
 {
-    public static class IntegerExtension
+   /* public static class IntegerExtension
     {
         public static int Square(this int myInt)
         {
@@ -32,5 +32,5 @@ namespace ExtensionMethod
             Console.WriteLine("{0}^{1} : {2}", 3, 4, 3.Power(4));
             Console.WriteLine("{0}^{1} : {2}", 2, 10, 2.Power(10));
         }
-    }
+    }*/
 }

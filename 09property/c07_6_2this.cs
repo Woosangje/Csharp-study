@@ -5,7 +5,7 @@ using System.Text;
 namespace This
 {
     //this()키워드
-    /*class MyClass
+   /* class MyClass
     {
         int a, b, c;
 
@@ -21,12 +21,11 @@ namespace This
             Console.WriteLine("MyClass({0})", b);
         }
 
-        public MyClass(int b, int c ) : this(b)
+        public MyClass(int b, int c): this(b)
         {
             this.c = c;
             Console.WriteLine("MyClass({0}. {1})", b, c);
         }
-
         public void PrintFields()
         {
             Console.WriteLine("a :{0}, b:{1}, c:{2}", a, b, c);
