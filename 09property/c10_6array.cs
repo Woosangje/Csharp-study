@@ -29,13 +29,13 @@ namespace JaggedArray
 
             int[][] jagged2 = new int[2][]
             {
-                new int[] { 1000, 2000 },
+                new int[] {1000, 2000},
                 new int[4] { 6, 7, 8, 9 }
             };
 
-            foreach (int[] arr in jagged2)
+            foreach(int[] arr in jagged2)
             {
-                Console.Write("Length : {0}, ", arr.Length);
+                Console.Write("Length : {0} ", arr.Length);
                 foreach(int e in arr)
                 {
                     Console.Write("{0} ", e);

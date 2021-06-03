@@ -16,7 +16,7 @@ namespace UsingQueue
             que.Enqueue(4);
             que.Enqueue(5);
             que.Dequeue();
-            while(que.Count > 0)
+            while(que.Count >0)
             {
                 Console.WriteLine(que.Dequeue());
             }

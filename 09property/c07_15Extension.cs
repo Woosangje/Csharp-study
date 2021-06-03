@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 using MyExtension;
-
+/* 
 namespace MyExtension
 {
-   /* public static class IntegerExtension
+   public static class IntegerExtension
     {
         public static int Square(this int myInt)
         {
@@ -30,7 +30,9 @@ namespace ExtensionMethod
         {
             Console.WriteLine("{0}^2 : {1}", 3, 3.Square());
             Console.WriteLine("{0}^{1} : {2}", 3, 4, 3.Power(4));
-            Console.WriteLine("{0}^{1} : {2}", 2, 10, 2.Power(10));
+            Console.WriteLine("{0}^{1} : {2} : {2}", 2, 10, 2.Power(10));
         }
-    }*/
+    }
+
 }
+*/
