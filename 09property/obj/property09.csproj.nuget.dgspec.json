@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\woosangje\\Desktop\\공부git\\GitStudy\\Csharp-study\\09property\\property09.csproj": {}
+    "C:\\Users\\dnedr\\Desktop\\githurb\\Csharp-study\\09property\\property09.csproj": {}
   },
   "projects": {
-    "C:\\Users\\woosangje\\Desktop\\공부git\\GitStudy\\Csharp-study\\09property\\property09.csproj": {
+    "C:\\Users\\dnedr\\Desktop\\githurb\\Csharp-study\\09property\\property09.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\woosangje\\Desktop\\공부git\\GitStudy\\Csharp-study\\09property\\property09.csproj",
+        "projectUniqueName": "C:\\Users\\dnedr\\Desktop\\githurb\\Csharp-study\\09property\\property09.csproj",
         "projectName": "property09",
-        "projectPath": "C:\\Users\\woosangje\\Desktop\\공부git\\GitStudy\\Csharp-study\\09property\\property09.csproj",
-        "packagesPath": "C:\\Users\\woosangje\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\woosangje\\Desktop\\공부git\\GitStudy\\Csharp-study\\09property\\obj\\",
+        "projectPath": "C:\\Users\\dnedr\\Desktop\\githurb\\Csharp-study\\09property\\property09.csproj",
+        "packagesPath": "C:\\Users\\dnedr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dnedr\\Desktop\\githurb\\Csharp-study\\09property\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\woosangje\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dnedr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

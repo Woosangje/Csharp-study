@@ -4,7 +4,7 @@ using System.Text;
 
 namespace property09
 {
-    /*class MainApp
+  /* class MainApp
     {
         static int Plus(int a, int b)
         {
@@ -14,8 +14,9 @@ namespace property09
 
         static int Plus(int a, int b, int c)
         {
-            Console.WriteLine("Calling int Plus(int ,int, int)...");
+            Console.WriteLine("Calling int Plus(int, int, int)...");
             return a + b + c;
+            
         }
 
         static double Plus(double a, double b)
@@ -29,14 +30,13 @@ namespace property09
             Console.WriteLine("Calling double Plus(int, double)...");
             return a + b;
         }
+
         static void Main(string[] args)
         {
             Console.WriteLine(Plus(1, 2));
             Console.WriteLine(Plus(1, 2, 3));
             Console.WriteLine(Plus(1.0, 2.4));
             Console.WriteLine(Plus(1, 2.4));
-
         }
-            
     }*/
 }
