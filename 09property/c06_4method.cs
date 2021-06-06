@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace property09
-{
-  /*  class MainApp
+namespace property09 { 
+/*
+  class MainApp
     {
         static void Swap(ref int a, ref int b)
         {
