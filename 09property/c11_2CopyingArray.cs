@@ -5,8 +5,12 @@ using System.Text;
 
 namespace CopyingArray
 {
+<<<<<<< HEAD
     /*
     class MainApp
+=======
+  /* class MainApp
+>>>>>>> b8f015bb203e25c56d50001b227f658741e40bc1
     {
         static void CopyArray<T>(T[] source, T[] target)
         {
@@ -23,7 +27,7 @@ namespace CopyingArray
             foreach (int element in target)
                 Console.WriteLine(element);
             string[] source2 = { "하나", "둘", "셋", "넷", "다섯" };
-            string[] target2 = new string[source2.Length];
+            string[] target2 = new string[source.Length];
 
             CopyArray<string>(source2, target2);
 
