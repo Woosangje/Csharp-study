@@ -13,11 +13,10 @@ namespace property09
 
             int sum = 0;
 
-            for (int i = 0; i < args.Length; i++)
+            for(int i=0; i < args.Length; i++)
             {
                 if (i > 0)
-                    Console.Write(", ");
-
+                    Console.Write(",");
                 Console.Write(args[i]);
 
                 sum += args[i];
@@ -25,13 +24,14 @@ namespace property09
             Console.WriteLine();
 
             return sum;
+            
         }
 
         static void Main(string[] args)
         {
             int sum = Sum(3, 4, 5, 6, 7, 8, 9, 10);
 
-            Console.WriteLine("Sum : {0}", sum);
+            Console.WriteLine("Sum :{0}", sum);
         }
     }*/
 }

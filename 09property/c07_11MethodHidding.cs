@@ -5,17 +5,17 @@ using System.Text;
 namespace MethodHidding
 {
     //메소드 숨기기
-   /* class Base
+   /* class Base//클래스
     {
-        public void MyMethod()
+        public void MyMethod()//전역 메소드
         {
             Console.WriteLine("Base.MyMethod()");
         }
     }
 
-    class Derived : Base
+    class Derived : Base//Base를 상속받은 Derived클래스
     {
-        public new void MyMethod()
+        public new void MyMethod()  
         {
             Console.WriteLine("Derived.MyMethod()");
         }
@@ -25,13 +25,13 @@ namespace MethodHidding
     {
         static void Main(string[] args)
         {
-            Base baseObj = new Base();
+            Base baseObj = new Base();//인스턴스
             baseObj.MyMethod();
 
-            Derived derivedObj = new Derived();
+            Derived derivedObj = new Derived();//인스턴스
             derivedObj.MyMethod();
 
-            Base baseOrDerived = new Derived();
+            Base baseOrDerived = new Derived();//인스턴스
             baseOrDerived.MyMethod();
         }
     }*/
