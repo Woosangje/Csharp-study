@@ -12,3 +12,4 @@
 
 06/01오버라이딩 this, this()등 공부하고 인터페이스 진행중~~
 06/03 static arraylist,가변배열 등 복습
+06/08 확장매소드 static,this

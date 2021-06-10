@@ -5,7 +5,7 @@ using System.Text;
 namespace property09
 {
     //명명된 매개 변수
-  /*  class MainApp
+    /*class MainApp
     {
         static void PrintProfile(string name, string phone)
         {
@@ -19,6 +19,5 @@ namespace property09
             PrintProfile("박세리", "010-222-2222");
             PrintProfile("박상현", phone: "010-567-5678");
         }
-
-    } */
+    }*/
 }

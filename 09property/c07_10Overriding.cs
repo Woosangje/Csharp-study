@@ -4,7 +4,7 @@ using System.Text;
 
 namespace property09
 {
-    /*class ArmorSuite
+   /* class ArmorSuite
     {
         public virtual void Initialize()
         {
@@ -20,7 +20,7 @@ namespace property09
             Console.WriteLine("Repulsor Rays Armed");
         }
     }
-    
+
     class WarMachine : ArmorSuite
     {
         public override void Initialize()
