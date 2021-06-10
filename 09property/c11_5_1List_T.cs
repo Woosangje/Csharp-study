@@ -6,9 +6,9 @@ using System.Text;
 namespace UsingGenericList
 {
    //List<T>
-   class MainApp
+   /*class MainApp
     {
-        /*
+        
         static void Main(string[] args)
         {
             List<int> list = new List<int>();
