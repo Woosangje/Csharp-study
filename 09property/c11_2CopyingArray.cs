@@ -7,7 +7,6 @@ namespace CopyingArray
 {
 
   /* class MainApp
->>>>>>> b8f015bb203e25c56d50001b227f658741e40bc1
     {
         static void CopyArray<T>(T[] source, T[] target)
         {
