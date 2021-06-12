@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace property09
-{
-    /*class Global
+{/*
+    class Global
     {
         public static int Count = 0;
     }
@@ -36,7 +36,7 @@ namespace property09
             new ClassA();
             new ClassB();
 
-            Console.WriteLine("Global.Count : {0}", Global.Count);
+            Console.WriteLine("Global.Count: {0}", Global.Count);
         }
     }*/
 }

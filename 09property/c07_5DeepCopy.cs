@@ -4,21 +4,19 @@ using System.Text;
 
 namespace property09
 {
-    /*
-    class MyClass
+    /*class MyClass
     {
+        public int MyField1;
+        public int MyField2;
 
-            public int MyField1;
-            public int MyField2;
+        public MyClass DeepCopy()
+        {
+            MyClass newCopy = new MyClass();//인스턴스 newCopy 생성자~
+            newCopy.MyField1 = this.MyField1;
+            newCopy.MyField2 = this.MyField2;
 
-            public MyClass DeepCopy()
-            {
-                MyClass newCopy = new MyClass();
-                newCopy.MyField1 = this.MyField1;
-                newCopy.MyField2 = this.MyField2;
-
-                return newCopy;
-            } 
+            return newCopy;
+        }
     }
 
     class MainApp
@@ -51,7 +49,6 @@ namespace property09
 
                 Console.WriteLine("{0} {1}", source.MyField1, source.MyField2);
                 Console.WriteLine("{0} {1}", target.MyField1, target.MyField2);
-
             }
         }
     }*/

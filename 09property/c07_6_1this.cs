@@ -4,7 +4,7 @@ using System.Text;
 
 namespace This
 {
-    /*class Employee
+   /* class Employee
     {
         private string Name;
         private string Position;
@@ -18,12 +18,10 @@ namespace This
         {
             return Name;
         }
-
         public void SetPosition(string Position)
         {
             this.Position = Position;
         }
-
         public string GetPosition()
         {
             return this.Position;
@@ -41,8 +39,9 @@ namespace This
 
             Employee tigger = new Employee();
             tigger.SetName("Tigger");
-            tigger.SetPosition("Cleaner");
+            tigger.SetPosition("cleaner");
             Console.WriteLine("{0} {1}", tigger.GetName(), tigger.GetPosition());
         }
     }*/
+
 }

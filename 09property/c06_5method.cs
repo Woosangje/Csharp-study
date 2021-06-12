@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace UsingOut
-{
-   /* class MainApp
+{/*
+   class MainApp
     {
         static void Divide(int a, int b, out int quotient, out int remainder)
         {
             quotient = a / b;
             remainder = a % b;
         }
-
         static void Main(string[] args)
         {
             int a = 20;

@@ -3,23 +3,22 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace property09
-{/*
-    class MainApp { 
+{
+    /*class MainApp
+    {
         static int Plus(int a, int b)
         {
             Console.WriteLine("Calling int Plus(int, int)...");
             return a + b;
         }
-
         static int Plus(int a, int b, int c)
         {
-            Console.WriteLine("Calling int Plus(int, int, int)...");
+            Console.WriteLine("Calling int Plus(int, int , int)...");
             return a + b + c;
         }
-
         static double Plus(double a, double b)
         {
-            Console.WriteLine("Calling double Plus(dobule, double)...");
+            Console.WriteLine("Calling double Plus(double, double)...");
             return a + b;
         }
 
