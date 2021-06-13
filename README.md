@@ -13,4 +13,5 @@
 06/01오버라이딩 this, this()등 공부하고 인터페이스 진행중~~
 06/03 static arraylist,가변배열 등 복습<br>
 06/08 확장매소드 static,this<br>
-06/12 깊은복사 ref out main(ref int a,ref int b) this.a;this.b
+06/12 깊은복사 ref out main(ref int a,ref int b) this.a;this.b<br>
+06/13 일반화메소드, 무지성 타이핑 foreach를 사용할 수 있는 일반화메소드~
