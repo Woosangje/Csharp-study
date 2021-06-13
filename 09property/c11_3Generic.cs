@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CopyingArray
 {
-    /*class MyList<T>
+   /* class MyList<T>
     {
         private T[] array;
 
@@ -22,12 +22,11 @@ namespace CopyingArray
             }
             set
             {
-                if (index >= array.Length)
+                if(index >= array.Length)
                 {
                     Array.Resize<T>(ref array, index + 1);
                     Console.WriteLine("Array Resized : {0}", array.Length);
                 }
-
                 array[index] = value;
             }
         }
@@ -49,11 +48,10 @@ namespace CopyingArray
             str_list[3] = "jkl";
             str_list[4] = "mno";
 
-            for(int i =0; i< str_list.Length; i++)
+            for (int i = 0; i < str_list.Length; i++)
             {
                 Console.WriteLine(str_list[i]);
             }
-
             Console.WriteLine();
 
             MyList<int> int_list = new MyList<int>();
@@ -64,7 +62,9 @@ namespace CopyingArray
             int_list[4] = 4;
 
             for (int i = 0; i < int_list.Length; i++)
+            {
                 Console.WriteLine(int_list[i]);
+            }
         }
     }*/
 }

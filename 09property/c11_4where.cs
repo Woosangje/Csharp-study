@@ -6,7 +6,8 @@ using System.Text;
 namespace CopyingArray
 {
     //형식 매개 변수 제약시키기
-    /*class StructArray<T> where T : struct
+    /*
+    class StructArray <T> where T : struct
     {
         public T[] Array { get; set; }
         public StructArray(int size)
@@ -24,11 +25,10 @@ namespace CopyingArray
         }
     }
 
-    class Base { }
-    class Derived : Base { }
+    class Base {}
+    class Derived : Base {}
 
     class BaseArray<U> where U : Base
-
     {
         public U[] Array { get; set; }
         public BaseArray(int size)

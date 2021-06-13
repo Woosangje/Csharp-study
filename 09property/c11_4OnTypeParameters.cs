@@ -6,7 +6,8 @@ using System.Text;
 namespace ConstraintsOnTypeParameters
 {
     //형식 매개변수 제약시키기
-   /* class StructArray<T> where T : struct
+    /*
+   class StructArray<T> where T : struct
     {
         public T[] Array { get; set; }
         public StructArray(int size)
@@ -33,8 +34,7 @@ namespace ConstraintsOnTypeParameters
         {
             Array = new U[size];
         }
-
-        public void CopyArray<T>(T[] Source) where T : U
+        public void CopyArray<T>(T[] Source) where T: U
         {
             Source.CopyTo(Array, 0);
         }
@@ -65,14 +65,13 @@ namespace ConstraintsOnTypeParameters
             c.Array[2] = CreateInstance<Base>();
 
             BaseArray<Derived> d = new BaseArray<Derived>(3);
-            d.Array[0] = new Derived(); //Base 형식은 여기에 할당할 수 없다.
+            d.Array[0] = new Derived();//Base 형식은 여기에 할당할 수 없다.
             d.Array[1] = CreateInstance<Derived>();
             d.Array[2] = CreateInstance<Derived>();
 
             BaseArray<Derived> e = new BaseArray<Derived>(3);
             e.CopyArray<Derived>(d.Array);
         }
-    }
-   */
+    }*/
 }
 

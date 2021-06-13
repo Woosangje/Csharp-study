@@ -6,9 +6,9 @@ using System.Text;
 namespace UsingGenericList
 {
    //List<T>
-   /*class MainApp
+   /*
+   class MainApp
     {
-        
         static void Main(string[] args)
         {
             List<int> list = new List<int>();
@@ -19,7 +19,7 @@ namespace UsingGenericList
             {
                 Console.Write("{0} ", element);
             }
-                Console.WriteLine();
+            Console.WriteLine();
             list.RemoveAt(2);
 
             foreach (int element in list)
@@ -28,10 +28,12 @@ namespace UsingGenericList
 
             list.Insert(2, 2);
 
-            foreach (int element in list)
+            foreach(int element in list)
+            {
                 Console.Write("{0} ", element);
+            }
             Console.WriteLine();
         }
-    }*/
-
+    }
+   */
 }
