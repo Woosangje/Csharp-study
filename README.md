@@ -15,3 +15,5 @@
 06/08 확장매소드 static,this<br>
 06/12 깊은복사 ref out main(ref int a,ref int b) this.a;this.b<br>
 06/13 일반화메소드, 무지성 타이핑 foreach를 사용할 수 있는 일반화메소드~
+
+11/22 재공부
