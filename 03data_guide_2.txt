@@ -1,0 +1,34 @@
+
+기본 데이터 형식(Primitive Types)은 15가지
+이 중에서 문자열 형식과 오브젝트 형식만 참조 형식에 해당
+
+숫자 데이터 형식은 12가지
+
+정수 계열 형식(Integral Types)
+byte 	부호없는 정수	 1바이트 		0~255
+sbyte	signed byte 정수	 1		-128~127
+short	정수		 2		-3만2천
+ushort	unsigned short	 2		0~6만5천
+int	정수		 4		-21억~21억
+uint 	unsigned int	 4		42억
+long	정수		 8		-90경~90경
+ulong	부호없는 정수	 8		180경
+char	유니코드 문자	 2
+
+-2를 2의 보수법으로 표현
+
+1.0000 0010 숫자2
+2.1111 1101 8개의 비트 전체를 1을0으로, 0은 1로 반전
+3.1111 1110 반전된 비트에 1을 더함 -2
+
+오버플로우(Overflow) 최대값 주의
+언더플로우(Underflow)최저값 주의
+
+float 7개의 자릿수만 다룰 수 있음 4byte
+double 15개의 자릿수를 다룰 수 있음 8byte
+decimal 29자리 데이터를 표현할 수 있는 형식 16byte
+(m;수식해줘야함)
+
+논리형식 bool 1바이트
+
+
