@@ -1,0 +1,14 @@
+Nullable 형식 어떤 값도 가지지 않은 변수 Null
+데이터형식? 변수이름;
+int? a = null;
+
+Nullable 형식은 HasValue와 Value 두 가지 속성을 갖고 있습니다.
+HasValue 속성은 해당 변수가 값을 갖고 있는지 또는 없는지를 나타내고
+Value 속성은 변수에 담겨 있는 값을 나타냅니다.
+
+int? a =null;
+Console.WriteLine( a.HasValue);//a는 null이므로 False 출력
+
+a = 37;
+Console.WriteLine(a.HasValue); a는 37을 갖고 있으므로 True 출력
+Console.WriteLine(a.Value); //37을 출력
