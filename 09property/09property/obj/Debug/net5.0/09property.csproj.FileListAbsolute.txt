@@ -1,0 +1,16 @@
+C:\Users\dnedr\Desktop\githurb\Csharp-study\09property\09property\bin\Debug\net5.0\09property.exe
+C:\Users\dnedr\Desktop\githurb\Csharp-study\09property\09property\bin\Debug\net5.0\09property.deps.json
+C:\Users\dnedr\Desktop\githurb\Csharp-study\09property\09property\bin\Debug\net5.0\09property.runtimeconfig.json
+C:\Users\dnedr\Desktop\githurb\Csharp-study\09property\09property\bin\Debug\net5.0\09property.runtimeconfig.dev.json
+C:\Users\dnedr\Desktop\githurb\Csharp-study\09property\09property\bin\Debug\net5.0\09property.dll
+C:\Users\dnedr\Desktop\githurb\Csharp-study\09property\09property\bin\Debug\net5.0\ref\09property.dll
+C:\Users\dnedr\Desktop\githurb\Csharp-study\09property\09property\bin\Debug\net5.0\09property.pdb
+C:\Users\dnedr\Desktop\githurb\Csharp-study\09property\09property\obj\Debug\net5.0\09property.csprojAssemblyReference.cache
+C:\Users\dnedr\Desktop\githurb\Csharp-study\09property\09property\obj\Debug\net5.0\09property.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dnedr\Desktop\githurb\Csharp-study\09property\09property\obj\Debug\net5.0\09property.AssemblyInfoInputs.cache
+C:\Users\dnedr\Desktop\githurb\Csharp-study\09property\09property\obj\Debug\net5.0\09property.AssemblyInfo.cs
+C:\Users\dnedr\Desktop\githurb\Csharp-study\09property\09property\obj\Debug\net5.0\09property.csproj.CoreCompileInputs.cache
+C:\Users\dnedr\Desktop\githurb\Csharp-study\09property\09property\obj\Debug\net5.0\09property.dll
+C:\Users\dnedr\Desktop\githurb\Csharp-study\09property\09property\obj\Debug\net5.0\ref\09property.dll
+C:\Users\dnedr\Desktop\githurb\Csharp-study\09property\09property\obj\Debug\net5.0\09property.pdb
+C:\Users\dnedr\Desktop\githurb\Csharp-study\09property\09property\obj\Debug\net5.0\09property.genruntimeconfig.cache

@@ -12,3 +12,19 @@ Console.WriteLine( a.HasValue);//a는 null이므로 False 출력
 a = 37;
 Console.WriteLine(a.HasValue); a는 37을 갖고 있으므로 True 출력
 Console.WriteLine(a.Value); //37을 출력
+
+var 키워드 
+컴파일러가 알아서 var키워드를 선언
+
+var은 지역 변수로만 사용가능
+
+지역변수(Local Variable)
+
+공용 형식 시스템(Common Type System)
+.NET 프레임워크 형식 체계의 표준을 따르고 있을 뿐
+
+4.관계 연산자(Relational Operator)
+조건 연산자(Conditional Operator) ?:
+조건식 ? 참일_때의_값 : 거짓일_때의_값
+
+할당연산자(Assignment Operator) +=
