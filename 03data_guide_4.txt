@@ -28,3 +28,12 @@ var은 지역 변수로만 사용가능
 조건식 ? 참일_때의_값 : 거짓일_때의_값
 
 할당연산자(Assignment Operator) +=
+
+분기문(Branching Statement)
+
+142p
+string input = Console.ReadLine();
+int number = Int32.Parse( input);
+
+continue
+반복문을 멈추게 하는 break문과는 달리, continue 문은 한 회 건너 뛰어 반복을 계속하게 하는 기능을 합니다.

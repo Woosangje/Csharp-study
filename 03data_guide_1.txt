@@ -2,7 +2,6 @@
 기본 데이터 형식(Primitive Type)
 상수(Constants)
 열거형(Enumerator)
-
 변수(Variable) 데이터를 담는 일정 크기의 공간
 선언하다(Declare)
 초기화(Initialization)

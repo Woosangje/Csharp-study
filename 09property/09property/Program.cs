@@ -2,26 +2,45 @@
 
 namespace _09property
 {
-    class Program
+    class Base
+    {
+        protected string Name;
+        public Base(string Name)
+        {
+            this.Name = Name;
+            Console.WriteLine("{0}.Base()", this.Name);
+        }
+
+
+        public void BaseMethod()
+        {
+            Console.WriteLine("{0}.BaseMethod()", Name);
+        }
+    }
+
+    class Derived : Base
+    {
+        public Derived(string Name) : base(Name)
+        {
+            Console.WriteLine("{0}.Derived()", this.Name);
+        }
+
+        public void DerivedMethod()
+        {
+            Console.WriteLine("{0}.DerivedMethod()", Name);
+        }
+    }
+
+    class MainApp
     {
         static void Main(string[] args)
         {
-            var a = 20;
-            Console.WriteLine("Type: {0}, Value: {1}", a.GetType(), a);
+            Base a = new Base("a");
+            a.BaseMethod();
 
-            var b = 3.1414213;
-            Console.WriteLine("Type: {0}, Value: {1}", b.GetType(), b);
-
-            var c = "Hello, Would!";
-            Console.WriteLine("Type: {0}, Value: {1}", c.GetType(), c);
-
-            var d = new int[] { 10, 20, 30 };
-            Console.Write("Type: {0}, Value: {1}", c.GetType(), c);
-
-            foreach (var e in d)
-                Console.Write("{0} ", e);
-
-            Console.WriteLine();
+            Derived b = new Derived("b");
+            b.BaseMethod();
+            b.DerivedMethod();
         }
     }
 }
