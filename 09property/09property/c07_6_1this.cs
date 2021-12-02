@@ -4,7 +4,7 @@ using System.Text;
 
 namespace This
 {
-   /* class Employee
+    /* class Employee
     {
         private string Name;
         private string Position;
@@ -43,5 +43,6 @@ namespace This
             Console.WriteLine("{0} {1}", tigger.GetName(), tigger.GetPosition());
         }
     }*/
+
 
 }

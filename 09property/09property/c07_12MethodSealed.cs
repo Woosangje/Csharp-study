@@ -4,6 +4,7 @@ using System.Text;
 
 namespace c07_12MethodSealed
 {
+
     /*
     class Base
     {

@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace property09
-{/*
+namespace c07_4staticField
+{
+    /*
     class Global
     {
         public static int Count = 0;

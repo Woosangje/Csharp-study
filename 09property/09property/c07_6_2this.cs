@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace This
+namespace c07_6_2this
 {
     //this()키워드
     /*class MyClass
@@ -21,7 +21,7 @@ namespace This
              Console.WriteLine("MyClass({0})", b);
          }
 
-         public MyClass(int b, int c): this(b)
+         public MyClass(int b, int c) : this(b)
          {
              this.c = c;
              Console.WriteLine("MyClass({0}. {1})", b, c);
