@@ -1,4 +1,4 @@
-12 34
+12 34 5
 기본 데이터 형식(Primitive Type)
 상수(Constants)
 열거형(Enumerator)

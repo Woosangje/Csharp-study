@@ -1,58 +1,23 @@
 ﻿using System;
 
-namespace MyExtension
+namespace Program
 {
-    class BirthdayInfo
+    /*
+
+    abstract class human
     {
-        private string name;
-        private DateTime birthday;
-
-        public string Name
-        {
-            get
-            {
-                return name;
-            }
-            set
-            {
-                name = value;
-            }
-        }
-
-        public DateTime Birthday
-        {
-            get
-            {
-                return birthday;
-            }
-            set
-            {
-                birthday = value;
-            }
-        }
-
-        public int Age
-        {
-            get
-            {
-                return new DateTime(DateTime.Now.Subtract(birthday).Ticks).Year;
-            }
-        }
-
-        class MainApp
-        {
-            static void Main(string[] args)
-            {
-                BirthdayInfo birth = new BirthdayInfo();
-                birth.Name = "서현";
-                birth.Birthday = new DateTime(1991, 6, 28);
-
-                Console.WriteLine("Name : {0}", birth.Name);
-                Console.WriteLine("Birthday : {0}", birth.Birthday.ToShortDateString());
-                Console.WriteLine("Age : {0}", birth.Age);
-            }
-        }
-
+        private st
     }
-    
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            var nameCard = 0;
+            Console.WriteLine("이름:{0}, 나이:{1}", nameCard.Name, nameCard.Age);
+
+            var complex = "";
+            Console.WriteLine("Real:{0}, Imaginary:{1}",
+                complex.Real, complex.Imaginary);
+        }
+    }*/
 }

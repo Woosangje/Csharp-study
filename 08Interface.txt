@@ -18,6 +18,8 @@ DateTime.Now.ToLocalTime()
 절대경로 @붙여줌
 new FileLogger(@"C:\Users\dnedr\Desktop\githurb\Csharp-study\09property\09property\MyLog.txt"));
 
+String message = String.Format(format, args);
+
 8.5 추상 클래스: 인터페이스와 클래스 사이
 추상 클래스는 구현을 갖되 인스턴스는 만들지 못합니다.
 abstract 한정자
@@ -26,7 +28,7 @@ abstract 한정자
 
 추상 클래스는 또 다른 추상 클래스를 상속할 수 있으며,
 이 경우 자식 추상 클래스는 부모 추상 클래스의 추상 메소드를 구현하지 않아도 됩니다
-추상 메소드는 인스턴스를 생성할 클래스에서 구현아면 되니까요.
+추상 메소드는 인스턴스를 생성할 클래스에서 구현하면 되니까요.
 
 인터페이스와 추상클레스가 다른점
 https://holjjack.tistory.com/41
