@@ -1,7 +1,7 @@
-
+12
 인터페이스는 메소드, 이벤트, 인덱서, 프로퍼티만을 가질 수 있습니다
 
-인터페이스는 접근 제한 한정자를 사용할수 없고 모든 것이 public으로 선언됩니다
+인터페이스는 접근 제한 한정자를 사용할 수 없고 모든 것이 public으로 선언됩니다
 인터페이스는 인스턴스도 만들 수가 없습니다
 
 인터페이스는 인스턴스를 가질 수 없지만,
@@ -11,16 +11,10 @@
 파생 클래스는 인터페이스에 선언되어 있는 모든 메소드(및 프로퍼티)를 구현해줘야 하며,
 이 메소드들은 public 한정자로 수식해야 합니다.
 
-인터페이스는 인스턴스는 못 만들지만, 참조는 만들 수 있습니다.
+인터페이스는 인스턴스를 못 만들지만, 참조는 만들 수 있습니다.
 
-DateTime.Now.ToLocalTime()
 
-절대경로 @붙여줌
-new FileLogger(@"C:\Users\dnedr\Desktop\githurb\Csharp-study\09property\09property\MyLog.txt"));
-
-String message = String.Format(format, args);
-
-8.5 추상 클래스: 인터페이스와 클래스 사이
+추상 클래스: 인터페이스와 클래스 사이
 추상 클래스는 구현을 갖되 인스턴스는 만들지 못합니다.
 abstract 한정자
 클래스와 다르게 추상 메소스(Abstract Method)를 가질 수 있습니다.
@@ -30,5 +24,15 @@ abstract 한정자
 이 경우 자식 추상 클래스는 부모 추상 클래스의 추상 메소드를 구현하지 않아도 됩니다
 추상 메소드는 인스턴스를 생성할 클래스에서 구현하면 되니까요.
 
+
+
 인터페이스와 추상클레스가 다른점
 https://holjjack.tistory.com/41
+
+
+DateTime.Now.ToLocalTime()
+
+절대경로 @붙여줌
+new FileLogger(@"C:\Users\dnedr\Desktop\githurb\Csharp-study\09property\09property\MyLog.txt"));
+
+String message = String.Format(format, args);

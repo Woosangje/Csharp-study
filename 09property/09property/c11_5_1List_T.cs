@@ -5,35 +5,35 @@ using System.Text;
 
 namespace UsingGenericList
 {
-   //List<T>
-   /*
-   class MainApp
-    {
-        static void Main(string[] args)
+    //List<T>
+    /*
+       class MainApp
         {
-            List<int> list = new List<int>();
-            for (int i = 0; i < 5; i++)
-                list.Add(i);
-
-            foreach(int element in list)
+            static void Main(string[] args)
             {
-                Console.Write("{0} ", element);
+                List<int> list = new List<int>();
+                for (int i = 0; i < 5; i++)
+                    list.Add(i);
+
+                foreach(int element in list)
+                {
+                    Console.Write("{0} ", element);
+                }
+                Console.WriteLine();
+                list.RemoveAt(2);
+
+                foreach (int element in list)
+                    Console.Write("{0} ", element);
+                Console.WriteLine();
+
+                list.Insert(2, 2);
+
+                foreach(int element in list)
+                {
+                    Console.Write("{0} ", element);
+                }
+                Console.WriteLine();
             }
-            Console.WriteLine();
-            list.RemoveAt(2);
-
-            foreach (int element in list)
-                Console.Write("{0} ", element);
-            Console.WriteLine();
-
-            list.Insert(2, 2);
-
-            foreach(int element in list)
-            {
-                Console.Write("{0} ", element);
-            }
-            Console.WriteLine();
         }
-    }
-   */
+       */
 }

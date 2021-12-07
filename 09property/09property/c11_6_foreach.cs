@@ -42,7 +42,7 @@ namespace UsingGenericList
 
         public IEnumerator<T> GetEnumerator()
         {
-            for (int i = 0; i < array.Length; i++)
+            for(int i=0; i< array.Length; i++)
             {
                 yield return (array[i]);
             }
@@ -50,7 +50,7 @@ namespace UsingGenericList
 
         IEnumerator IEnumerable.GetEnumerator()
         {
-            for (int i = 0; i < array.Length; i++)
+            for(int i =0; i < array.Length; i++)
             {
                 yield return (array[i]);
             }
@@ -68,7 +68,7 @@ namespace UsingGenericList
 
         public bool MoveNext()
         {
-            if(position == array.Length - 1)
+            if(position == array.Length -1)
             {
                 Reset();
                 return false;
@@ -86,6 +86,7 @@ namespace UsingGenericList
 
         }
     }
+
     class MainApp
     {
         static void Main(string[] args)
