@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
 /*using MyExtension;*/
 namespace MyExtension { }
 /*{
@@ -39,4 +38,5 @@ namespace c07_15Extension
     }
 }
 */
+
 

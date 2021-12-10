@@ -42,4 +42,5 @@ namespace c07_16Struct
               Console.WriteLine(p3d3.ToString());
           }
       }*/
+
 }

@@ -2,7 +2,8 @@
 using System.Collections;
 
 namespace c10_6jagged_array
-{/*
+{
+    /*
     class MyList
     {
         private int[] array;
@@ -20,7 +21,7 @@ namespace c10_6jagged_array
             }
             set
             {
-                if (index >= array.Length)
+                if(index >= array.Length)
                 {
                     Array.Resize<int>(ref array, index + 1);
                     Console.WriteLine("Array Resized : {0}", array.Length);
