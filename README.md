@@ -28,3 +28,4 @@
 12/08 델리게이트,this. this(),생성자 params복습
 12/09 델리게이트, 인덱스,델리게이트체인,익명메소드 , 복습 메소드봉인 sealed,메소드숨기기 new override virtual
 12/10 복습 인터페이스 무명형식 var a= new{Name="김"age="17"}, 추상클래스 abstract,override로 정의, Generic; 가변배열 가변배열은 2차원배열이 아님, int[][] jagged = new int[39][],스택,큐,hashtable,indxer this[형식 index]
+12/12 람다식 Func,Action 
