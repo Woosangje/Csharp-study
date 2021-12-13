@@ -11,7 +11,7 @@ Func 델리게이트는 결과를 반환하는 메소드를 참조
 Action 델리게이트는 결과를 반환하지 않는 메소드를 참조
 
 
-식트리(Expression Tree) 426p
+_식트리(Expression Tree) 426p
 using System.Linq.Expressions
 
 Expression 클래스와 파생 클래스들
@@ -26,3 +26,6 @@ _팩터리 메소드
 Expression 클래스의 정적 팩토리 메소드들은 Expression 클래스의 파생 클래스인 
 ConstantExpression, BinaryExpression 클래스 등의 인스턴스를 생성하는 기능을 제공함으로써 
 우리들의 수고를 줄여줍니다.
+
+식 트리는 코드를 "데이터"로서 보관할 수 있습니다.
+데이터베이스 처리를 위한 식 트리는 LINQ에서 사용됩니다.
