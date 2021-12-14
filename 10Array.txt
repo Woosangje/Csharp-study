@@ -80,7 +80,7 @@ list.Add( 30 );
 list.RemoveAt( 1 ); //20을 삭제
 
 list.Insert( 1, 25); //25를 1번 인덱스에 삽입. 즉, 10과 30 사이에 25를 삽입
-Add.()와Insert()는 object형식으로 박싱됨
+Add()와Insert()는 object형식으로 박싱됨
 
 10.7.2 Queue
 Queue는 대기열이라는 뜻입니다.
