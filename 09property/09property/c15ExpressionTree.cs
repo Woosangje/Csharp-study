@@ -3,6 +3,7 @@ using System.Linq.Expressions;
 
 namespace c15ExpressionTree
 {
+    /*
     class Profile
     {
         public string Name { get; set; }
@@ -74,5 +75,5 @@ namespace c15ExpressionTree
                     profile.Name, profile.Work, profile.Height);
             }
         }
-    }
+    }*/
 }
