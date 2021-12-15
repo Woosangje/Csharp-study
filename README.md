@@ -30,3 +30,4 @@
 12/10 복습 인터페이스 무명형식 var a= new{Name="김"age="17"}, 추상클래스 abstract,override로 정의, Generic; 가변배열 가변배열은 2차원배열이 아님, int[][] jagged = new int[39][],스택,큐,hashtable,indxer this[형식 index]
 12/12 람다식 Func,Action 
 12/13식트리, LINQ, form whre orderby select
+12/15 LINQ, 리플렉션,애트리뷰트, 머리속에 들어간거없음 여러번 복습해야할듯
