@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace c08_3Interface
+namespace c08_4Interface
 {
     /*
     interface IRunnable
