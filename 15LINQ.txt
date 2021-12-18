@@ -50,5 +50,5 @@ group A by B into C
 
 _두 데이터 원본을 연결하는 join
 
-내부 조인(Innter Join)
+내부 조인(Inter Join)
 외부 조인(Outer Join)

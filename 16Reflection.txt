@@ -28,7 +28,7 @@ Activator.CreateInstance() 메소드는 입력받은 형식의 인스턴스를 �
 
 object a = Activator.CreateInstance(typeof(int));
 
-일반화를 지원하는 버넞의 CreateInstance() 메소드도 있습니다.
+일반화를 지원하는 버전의 CreateInstance() 메소드도 있습니다.
 
 List<int> list = Activator.CreateInstance<List<int>>();
 
@@ -41,7 +41,7 @@ _형식 내보내기
 의미로 생각하면 이해하는 데 도움이 될 겁니다.
 
 _애트리뷰트(Attribute)
-애트리뷰트는 코드에 대한 부가 정보를 기록하고 읽은 수 있는 기능입니다.
+애트리뷰트는 코드에 대한 부가 정보를 기록하고 읽을 수 있는 기능입니다.
 애트리뷰트가 주석과 다른 점은 주석이 사람이 읽고 쓰는 정보라면, 
 애트리뷰트는 사람이 작성하고 컴퓨터가 읽는다는 것입니다.
 
