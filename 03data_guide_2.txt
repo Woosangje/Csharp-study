@@ -10,7 +10,7 @@ sbyte	signed byte 정수	 1		-128~127
 short	정수		 2		-3만2천
 ushort	unsigned short	 2		0~6만5천
 int	정수		 4		-21억~21억
-uint 	unsigned int	 4		42억
+uint 	unsigned int	 4		0~42억
 long	정수		 8		-90경~90경
 ulong	부호없는 정수	 8		0~180경
 char	유니코드 문자	 2
