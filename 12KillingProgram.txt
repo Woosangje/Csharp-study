@@ -1,2 +1,6 @@
 
 IndexOutOfRangeException e
+
+System.Exception 클래스는 모든 예외의 조상입니다.
+
+throw new Exception("");

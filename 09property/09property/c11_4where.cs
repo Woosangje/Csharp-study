@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Collections;
-using System.Text;
+
 
 namespace CopyingArray
 {
@@ -76,4 +74,6 @@ namespace CopyingArray
             e.CopyArray<Derived>(d.Array);
         }
     }*/
+
+
 }

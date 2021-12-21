@@ -119,7 +119,7 @@ Console.WriteLine( ht["book"] );
 Console.WriteLine( ht["cook"] );
 Console.WriteLine("ht["tweet"] );
 
-10/8 Indexer
+_Indexer
 인덱서(Indexer)는 인덱스(Index)를 이용해서 객체 내의 데이터에 접근 하게 해주는 프로퍼티라고 생각하면 이해하기 쉽습니다.
 객체를 마치 배열처럼 사용할 수 있게 해주지요.
 
@@ -136,4 +136,17 @@ Console.WriteLine("ht["tweet"] );
 인덱서도 프로퍼티처럼 객체 내의 데이터에 접근할 수 있도록 하는 통로입니다.
 프로퍼티와 다른 점이라면 "인덱스(index)"를 이용한다는 사실이죠.
 
+_foreach 문은 IEnumerable 과 IEnumerator를 상속하는 형식만 지원합니다.
+IEnumerator GetEnumerator()	IEnumerator 형식의 객체를 반환
+
+GetEnumerator() 메소드는 IEnumerator 형식의 객체, 
+다시 말해 IEnumerator 인터페이스를 상속하는 클래스의 객체를 반환하면 됩니다.
+
+메소드 또는 프로퍼티 	설명
+boolean MoveNext()	다음 요소로 이동합니다. 컬렉션의 끝을 지난 경우에는 false, 이동이 성곡한 경우에는
+			true를 반환합니다.
+void Reset()		컬렉션의 첫 번째 위치의 "앞"로 이동합니다. 첫 번째 위치가 0번이라면, Reset()을 호
+			출하면 -1번으로 이동하는 것이죠. 첫 번째 위치로의 이동은 MoveNext()를 호출한
+			다음에 이루어집니다.
+Object Current{get;}	컬렉션의 현재 요소를 반환합니다.
 
