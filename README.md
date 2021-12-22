@@ -24,7 +24,7 @@
 12/04 프로퍼티, 인터페이스,추상 클래스에 사용시 get,set선언 해줘야함,새로운 초기화 방법 new 생성자{Name="Tom", year=21;} 무명 형식 생성자의 중괄호 안에선언  
 12/05 배열,
 12/06 스택,큐,형식매개변수 <> 인덱서 일반화 메소드,클래스<>
-12/07 일반화 컬렉션 Generic; try~catch로 예외 받기
+12/07 일반화 컬렉션 Generic; try catch로 예외 받기
 12/08 델리게이트,this. this(),생성자 params복습
 12/09 델리게이트, 인덱스,델리게이트체인,익명메소드 , 복습 메소드봉인 sealed,메소드숨기기 new override virtual
 12/10 복습 인터페이스 무명형식 var a= new{Name="김"age="17"}, 추상클래스 abstract,override로 정의, Generic; 가변배열 가변배열은 2차원배열이 아님, int[][] jagged = new int[39][],스택,큐,hashtable,indxer this[형식 index]<br>
@@ -32,5 +32,6 @@
 12/13식트리, LINQ, form whre orderby select<br>
 12/15 LINQ, 리플렉션,애트리뷰트, 머리속에 들어간거없음 여러번 복습해야할듯<br>
 12/16,17 애트리뷰트 프로세스,스레드,파일다루기 _복습 인터페이스<br>
-12/18~21 가비지 컬렉터, 복습 system.Array,컬렉션,예외처리 <br>
+12/18,21 가비지 컬렉터, 복습 system.Array,컬렉션,예외처리 <br>
 12/18,19 스레드, winform인터페이스 읽기만 하고 복습 연산자부터 추상메소드,프로퍼티까지<br>
+12/22 델리게이트 복습 앞으로 오늘부터 유니티작업시작 테트리스 모작 이차원배열로선언한 Transform에 null을 조건문으로 블록을 구별해서 좀 기억하기 어려움
