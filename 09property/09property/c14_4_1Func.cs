@@ -5,7 +5,7 @@ namespace c14_4_1Func
     /*
     class MainApp
     {
-        
+
         static void Main(string[] args)
         {
             Func<int> func1 = () => 10;
