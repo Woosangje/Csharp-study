@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace c15_6MinMax
 {
-    /*
+   /*
     class Profile
     {
         public string Name { get; set; }

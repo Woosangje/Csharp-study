@@ -1,10 +1,10 @@
 ﻿using System;
 
 namespace c16_1_3Reflection
-{/*
+{
+   /* 
     class MyClass
     {
-        
         [Obsolete("OldMethod는 폐기되었습니다. NewMethod()를 이용하세요.")]
         public void OldMethod()
         {
@@ -15,16 +15,16 @@ namespace c16_1_3Reflection
         {
             Console.WriteLine("I'm new");
         }
+    }
 
-        class MainApp
+    class MainApp
+    {
+        static void Main(string[] args)
         {
-            static void Main(string[] args)
-            {
-                MyClass obj = new MyClass();
+            MyClass obj = new MyClass();
 
-                obj.OldMethod();
-                obj.NewMethod();
-            }
+            obj.OldMethod();
+            obj.NewMethod();
         }
     }*/
 }

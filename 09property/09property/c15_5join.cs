@@ -2,12 +2,19 @@
 using System.Linq;
 
 namespace c15_4group_by
-{/*
+{
+    /*
     class Profile
     {
         public string Name { get; set; }
         public int Height { get; set; }
 
+    }
+
+    class Product
+    {
+        public string Title { get; set; }
+        public string Star { get; set; }
     }
 
     class MainApp
@@ -23,20 +30,49 @@ namespace c15_4group_by
                 new Profile(){Name="하하", Height=171}
             };
 
-            var listProfile = from profile in arrProfile
-                              orderby profile.Height
-                              group profile by profile.Height < 175 into g
-                              select new { GroupKey = g.Key, Profiles = g };
-
-            foreach(var Group in listProfile)
+            Product[] arrProduct =
             {
-                Console.WriteLine("- 174cm 미만? : {0}", Group.GroupKey);
+                new Product() { Title = "비트", Star = "정우성" },
+                new Product() { Title = "CF 다수", Star = "김태희" },
+                new Product() { Title = "아이리스", Star = "김태희" },
+                new Product() { Title = "모래시계", Star = "고현정" },
+                new Product() { Title = "Solo 예찬", Star = "이문세" }
+            };
 
-                foreach(var profile in Group.Profiles)
+            var listProfile =
+                from profile in arrProfile
+                join product in arrProduct on profile.Name equals product.Star
+                select new
                 {
-                    Console.WriteLine("     {0}, {1}", profile.Name,
-                            profile.Height);
-                }
+                    Name = profile.Name,
+                    Work = product.Title,
+                    Height = profile.Height
+                };
+
+            Console.WriteLine("--- 내부 조인 결과 ---");
+            foreach (var profile in listProfile)
+            {
+                Console.WriteLine("이름:{0}, 작품:{1}, 키:{2}cm",
+                    profile.Name, profile.Work, profile.Height);
+            }
+
+            listProfile =
+                from profile in arrProfile
+                join product in arrProduct on profile.Name equals product.
+                Star into ps
+                from product in ps.DefaultEmpty(new Product() { Title = "그런거 없음" })
+                select new
+                {
+                    Name = profile.Name,
+                    Work = product.Title,
+                    Height = profile.Height
+                };
+            Console.WriteLine();
+            Console.WriteLine("--- 외부 조인 결과 ---");
+            foreach(var profile in listProfile)
+            {
+                Console.WriteLine("이름:{0}, 작품:{1}, 키:{2}cm",
+                    profile.Name, profile.Work, profile.Height);
             }
         }
     }*/

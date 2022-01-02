@@ -1,54 +1,40 @@
+/*
+    class Profile
+    {
+        public string Name { get; set; }
+        public int Height { get; set; }
+    }
 
-LINQ는 Language INtegrated Query의 약어로,
-c# 언어에 통합된 데이터 질의 기능을 말합니다.
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            Profile[] arrProfile =
+            {
+                new Profile(){Name="정우성", Height=186},
+                new Profile(){Name="김태희", Height=158},
+                new Profile(){Name="고현정", Height=172},
+                new Profile(){Name="이문세", Height=178},
+                new Profile(){Name="하하", Height=171}
+            };
 
-From: 어떤 데이터 집합에서 찾을 것인가?
-Where: 어떤 값의 데이터를 찾을 것인가?
-Select: 어떤 항목을 추출할 것인가?
+            var heightStat = from profile in arrProfile
+                             group profile by profile.Height < 175 into g
+                             select new
+                             {
+                                 Group = g.Key == true ? "175미만" : "175이상",
+                                 Count = g.Count(),
+                                 Max = g.Max(profile => profile.Height),
+                                 Min = g.Min(profile => profile.Height),
+                                 Average = g.Average(profile => profile.Height)
+                             };
 
-모든 LINQ 쿼리식(Query Expression)은 반드시 from 절로 시작합니다.
-
-우리는 쿼리식의 대상이 될 데이터 원본(Data Source)과 데이터 원본 안에 들어 있는 각 요소 데이터를
-나타내는 범위 변수(Range Variable)를 from 절에서 지정해줘야 합니다.
-
-이 때 from의 데이터 원본은 아무 형식이나 사용할 수 없고,
-IEnumerable<T>를 상속하는 형식이어야만 합니다.
-배열이나 컬렉션 객체들은 IEnumerable<T>를 상속하기 때문에 이들은 
-모두 from 절의 데이터 원본으로 사용할 수 있습니다.
-
-범위 변수는 쿼리 변수(Query Variable)라고도 하는데, 
-foreach문의 반복 변수를 생각하면 이해하기 쉽습니다.
-foreach(int x in arr)에서 x 같은 것 말입니다.
-
-
-_where은 한마디로 필터(Filter)열할을 하는 연산자입니다.
-from 절이 데이터 원본으로부터 뽑아낸 범위 변수가 가져야 하는 조건을 
-where 연산자에 매개 변수로 입력하면 LINQ는 해당 조건에 부합하는 데이터만을 걸러냅니다.
- from <범위 변수> in <데이터 원본>
-
-_orderby는 데이터의 정렬을 수행하는 연산자입니다.
-orderby 연산자는 기본적으로 오름차순으로 데이터를 정렬하지만, 같이 작업을 하는 동료를 배려하는
-차원에서 좀 더 명확하게 오름차순으로 정렬한다는 사실을 알려주기 위해 
-다음 코드처럼 ascending 키워드를 명시해도 됩니다.
-orderby ~ ascending
-
-내림차순으로 정렬하고 싶으면 어떻게 하냐고요? orderby~descending을 이용하면 됩니다.
-orderby ~ descending
-
-_select 절은 최종 결과를 출력하는 쿼리식의 마침표 같은 존재입니다.
-LINQ 질의 결과는 IEnumerable<T>로 반환되는데, 
-이 때 형식 매개 변수 T는 바로 지금 공부하고 있는 select 문에 의해 결정됩니다.
-
-만약 select 문에서 Profile 객체 전체가 아닌 Name 프로퍼티만 추출하면 
-IEnumerable<string>형식으로 컴파일됩니다.
-
-select 문은 무명 형식을 이용해서 새로운 형식을 즉석에서 만들어낼 수도 있습니다.
-
-
-_group by로 데이터 분류하기
-group A by B into C
-
-_두 데이터 원본을 연결하는 join
-
-내부 조인(Inter Join)
-외부 조인(Outer Join)
+            foreach (var stat in heightStat)
+            {
+                Console.Write("{0} - Count:{1}, Max:{2}, ",
+                    stat.Group, stat.Count, stat.Max);
+                Console.WriteLine("Min:{0}, Average:{1}",
+                    stat.Min, stat.Average);
+            }
+        }
+    }*/

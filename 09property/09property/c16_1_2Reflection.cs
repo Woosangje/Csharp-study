@@ -3,61 +3,63 @@ using System.Reflection;
 
 namespace c16_1_2Reflection
 {
+
     /*
-   class Profile
-    {
-        private string name;
-        private string phone;
+    class Profile
+     {
+         private string name;
+         private string phone;
 
-        public Profile()
-        {
-            name = ""; phone = "";
-        }
+         public Profile()
+         {
+             name = ""; phone = "";
+         }
 
-        public Profile(string name, string phone)
-        {
-            this.name = name;
-            this.phone = phone;
-        }
+         public Profile(string name, string phone)
+         {
+             this.name = name;
+             this.phone = phone;
+         }
 
-        public void Print()
-        {
-            Console.WriteLine("{0}, {1}", name, phone);
-        }
+         public void Print()
+         {
+             Console.WriteLine("{0}, {1}", name, phone);
+         }
 
-        public string Name
-        {
-            get { return name; }
-            set { name = value; }
-        }
+         public string Name
+         {
+             get { return name; }
+             set { name = value; }
+         }
 
-        public string Phone
-        {
-            get { return phone; }
-            set { phone = value; }
-        }
-    }
+         public string Phone
+         {
+             get { return phone; }
+             set { phone = value; }
+         }
+     }
 
-    class MainApp
-    {
-        static void Main(string[] args)
-        {
-            Type type = Type.GetType("DynamicInstance.Profile");
-            MethodInfo methodInfo = type.GetMethod("Print");
-            PropertyInfo nameProperty = type.GetProperty("Name");
-            PropertyInfo phoneProperty = type.GetProperty("Phone");
+     class MainApp
+     {
+         static void Main(string[] args)
+         {
+             Type type = Type.GetType("DynamicInstance.Profile");
+             MethodInfo methodInfo = type.GetMethod("Print");
+             PropertyInfo nameProperty = type.GetProperty("Name");
+             PropertyInfo phoneProperty = type.GetProperty("Phone");
 
-            object profile = Activator.CreateInstance(type, "박상현", "512-1234");
-            methodInfo.Invoke(profile, null);
+             object profile = Activator.CreateInstance(type, "박상현", "512-1234");
+             methodInfo.Invoke(profile, null);
 
-            profile = Activator.CreateInstance(type);
-            nameProperty.SetValue(profile, "박찬호", null);
-            phoneProperty.SetValue(profile, "997-551", null);
+             profile = Activator.CreateInstance(type);
+             nameProperty.SetValue(profile, "박찬호", null);
+             phoneProperty.SetValue(profile, "997-551", null);
 
-            Console.WriteLine("{0}, {1}",
-                nameProperty.GetValue(profile, null),
-                phoneProperty.GetValue(profile, null));
-        }
-    }
-    */
+             Console.WriteLine("{0}, {1}",
+                 nameProperty.GetValue(profile, null),
+                 phoneProperty.GetValue(profile, null));
+         }
+     }
+     */
+
 }

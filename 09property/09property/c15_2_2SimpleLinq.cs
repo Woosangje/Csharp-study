@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Linq;
 namespace c15_2_2SimpleLinq
-{ 
-   /* class Profile
+{
+    /* class Profile
     {
         public string Name { get; set; }
         public int    Height { get; set; }
