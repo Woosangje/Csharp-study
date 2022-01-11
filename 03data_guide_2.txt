@@ -1,13 +1,13 @@
 
 기본 데이터 형식(Primitive Types)은 15가지
-이 중에서 문자열 형식과 오브젝트 형식만 참조 형식에 해당
+이 중에서 문자열 형식과 오브젝트 형식만 참조 형식에 해당하며, 나머지는 모두 값 형식
 
 숫자 데이터 형식은 12가지
 
 정수 계열 형식(Integral Types)
 byte 	부호없는 정수	 1바이트 		0~255
 sbyte	signed byte 정수	 1		-128~127
-short	정수		 2		-3만2천
+short	정수		 2		-3만2천~3만2천
 ushort	unsigned short	 2		0~6만5천
 int	정수		 4		-21억~21억
 uint 	unsigned int	 4		0~42억
