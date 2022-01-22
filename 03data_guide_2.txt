@@ -1,4 +1,4 @@
-
+//12345 1
 기본 데이터 형식(Primitive Types)은 15가지
 이 중에서 문자열 형식과 오브젝트 형식만 참조 형식에 해당하며, 나머지는 모두 값 형식
 
@@ -12,7 +12,7 @@ ushort	unsigned short	 2		0~6만5천
 int	정수		 4		-21억~21억
 uint 	unsigned int	 4		0~42억
 long	정수		 8		-90경~90경
-ulong	부호없는 정수	 8		0~180경
+ulong	unsigned long	 8		0~180경
 char	유니코드 문자	 2
 
 -2를 2의 보수법으로 표현

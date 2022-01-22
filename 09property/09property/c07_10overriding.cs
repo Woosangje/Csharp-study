@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace c07_10overriding
-{
-    /*  class ArmorSuite
+{/*
+     class ArmorSuite
       {
           public virtual void Initialize()
           {
