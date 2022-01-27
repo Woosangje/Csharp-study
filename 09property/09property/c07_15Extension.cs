@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
-/*using MyExtension;*/
-namespace MyExtension { }
-/*{
+using static System.Console;
+//using MyExtension;
+/*
+namespace MyExtension
+{
     public static class IntegerExtension
     {
         public static int Square(this int myInt)
@@ -14,16 +15,15 @@ namespace MyExtension { }
         public static int Power(this int myInt, int exponent)
         {
             int result = myInt;
-            for (int i = 1; i < exponent; i++)
+            for(int i=1; i< exponent; i++)
             {
-                Console.WriteLine("{0}", result);
                 result = result * myInt;
-            
             }
             return result;
         }
     }
 }
+
 
 namespace c07_15Extension
 {
@@ -37,6 +37,6 @@ namespace c07_15Extension
         }
     }
 }
-*/
 
+*/
 

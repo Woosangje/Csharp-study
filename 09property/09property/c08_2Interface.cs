@@ -4,17 +4,16 @@ using System.IO;
 namespace c08_2Interface
 {
     /*
-    Interface ILogger
+    interface ILogger
     {
-          void WriteLog(string message);
+        void WriteLog(string message);
     }
 
-    class ConsoleLogger : ILogger//사용안한 클래스???
+    class ConsoleLogger : ILogger
     {
         public void WriteLog(string message)
         {
-            Console.WriteLine(
-                "{0} {1}", DateTime.Now.ToLocalTime(), message);
+            Console.WriteLine("{0} {1}", DateTime.Now.ToLocalTime(),message);
         }
     }
 
@@ -33,7 +32,6 @@ namespace c08_2Interface
             writer.WriteLine("{0} {1}", DateTime.Now.ToShortTimeString(), message);
         }
     }
-
     class ClimateMonitor
     {
         private ILogger logger;
@@ -46,12 +44,12 @@ namespace c08_2Interface
         {
             while (true)
             {
-                Console.Write("온도를 입력해주세요 : ");
+                Console.Write("온도를 입력해주세요 :");
                 string temperature = Console.ReadLine();
                 if (temperature == "")
                     break;
 
-                logger.WriteLog("현재 온도 : " + temperature);
+                logger.WriteLog("현재 온도 :" + temperature);
             }
         }
     }
@@ -64,7 +62,7 @@ namespace c08_2Interface
                 new FileLogger(@"C:\Users\dnedr\Desktop\githurb\Csharp-study\09property\09property\MyLog.txt"));
             monitor.start();
         }
-    }*/
-
+    }
+    */
 
 }
