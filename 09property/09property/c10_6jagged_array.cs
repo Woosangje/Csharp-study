@@ -11,34 +11,33 @@ namespace c10_6jagged_array
             jagged[1] = new int[] { 10, 20, 30 };
             jagged[2] = new int[] { 100, 200 };
 
-            foreach(int[] arr in jagged)
+            foreach (int[] arr in jagged)
             {
                 Console.Write("Length : {0}, ", arr.Length);
-                foreach(int e in arr)
+                foreach (int e in arr)
                 {
                     Console.Write("{0} ", e);
                 }
                 Console.WriteLine(" tt");
-            
             }
             Console.WriteLine("");
 
             int[][] jagged2 = new int[2][]
             {
-                new int[]{1000, 2000},
-                new int[4] { 6, 7, 8, 9}
+                new int[] { 1000, 2000 },
+                new int[4] { 6, 7, 8, 9 }
             };
 
-            foreach(int[] arr in jagged2)
+            foreach (int[] arr in jagged2)
             {
                 Console.Write("Length : {0}, ", arr.Length);
-                foreach(int e in arr)
+                foreach (int e in arr)
                 {
                     Console.Write("{0} ", e);
                 }
                 Console.WriteLine();
             }
         }
-    }
-    */
+    }*/
+    
 }

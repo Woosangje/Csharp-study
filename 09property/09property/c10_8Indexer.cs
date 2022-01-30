@@ -7,7 +7,7 @@ namespace c10_6jagged_array
     class MyList
     {
         private int[] array;
-
+        
         public MyList()
         {
             array = new int[3];
@@ -41,11 +41,14 @@ namespace c10_6jagged_array
             static void Main(string[] args)
             {
                 MyList list = new MyList();
-                for (int i = 0; i < 5; i++)
+                for(int i=0; i< 5; i++)
+                {
                     list[i] = i;
-
-                for (int i = 0; i < list.Length; i++)
+                }
+                for(int i=0; i<list.Length; i++)
+                {
                     Console.WriteLine(list[i]);
+                }
             }
         }
     }*/

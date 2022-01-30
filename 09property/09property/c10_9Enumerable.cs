@@ -3,7 +3,8 @@ using System.Collections;
 
 namespace c10_9Enumerable
 {
-   /* class MyList : IEnumerable, IEnumerator
+    /*
+    class MyList : IEnumerable, IEnumerator
     {
         private int[] array;
         int position = -1;
@@ -19,7 +20,6 @@ namespace c10_9Enumerable
             {
                 return array[index];
             }
-
             set
             {
                 if (index >= array.Length)
@@ -32,7 +32,7 @@ namespace c10_9Enumerable
             }
         }
 
-        //IEnumerator 멤버
+        //IEnumerator 맴버
         public object Current
         {
             get
@@ -40,11 +40,10 @@ namespace c10_9Enumerable
                 return array[position];
             }
         }
-
         //IEnumerator 멤버
         public bool MoveNext()
         {
-            if(position == array.Length -1)
+            if (position == array.Length - 1)
             {
                 Reset();
                 return false;
@@ -60,16 +59,16 @@ namespace c10_9Enumerable
             position = -1;
         }
 
-
         //IEnumerable 멤버
         public IEnumerator GetEnumerator()
         {
-            for(int i=0; i < array.Length; i++)
+            for(int i=0; i< array.Length; i++)
             {
                 yield return (array[i]);
             }
         }
     }
+
 
     class MainApp
     {
