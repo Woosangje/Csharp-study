@@ -2,7 +2,7 @@
 
 namespace c08_5Interface
 {
-    /*
+   /* 
      class MainApp
      {
          private static bool CheckPassed(int score)

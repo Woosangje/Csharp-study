@@ -3,6 +3,7 @@
 namespace c08_5Interface
 {
 
+
     /*
     abstract class AbstractBase
     {
