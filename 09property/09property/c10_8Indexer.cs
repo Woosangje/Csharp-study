@@ -1,15 +1,12 @@
 ﻿using System;
 using System.Collections;
 
-namespace c10_6jagged_array
-{
+namespace c10_6jagged_array {
     /*
-    class MyList
-    {
+    class MyList {
         private int[] array;
-        
-        public MyList()
-        {
+
+        public MyList() {
             array = new int[3];
         }
 
@@ -21,12 +18,10 @@ namespace c10_6jagged_array
             }
             set
             {
-                if(index >= array.Length)
-                {
+                if(index >= array.Length) {
                     Array.Resize<int>(ref array, index + 1);
                     Console.WriteLine("Array Resized : {0}", array.Length);
                 }
-
                 array[index] = value;
             }
         }
@@ -35,21 +30,20 @@ namespace c10_6jagged_array
         {
             get { return array.Length; }
         }
+    }
 
-        class MainApp
-        {
-            static void Main(string[] args)
-            {
-                MyList list = new MyList();
-                for(int i=0; i< 5; i++)
-                {
-                    list[i] = i;
-                }
-                for(int i=0; i<list.Length; i++)
-                {
-                    Console.WriteLine(list[i]);
-                }
+
+    class MainApp {
+        static void Main(string[] args) {
+            MyList list = new MyList();
+            for(int i=0; i<5; i++) {
+                list[i] = i;
+            }
+            for(int i=0; i<list.Length; i++) {
+                Console.WriteLine(list[i]);
             }
         }
-    }*/
+    }
+
+    */
 }
