@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace c10_9Enumerable
-{
-    /*
+namespace c10_9Enumerable {    /*
  class MyList : IEnumerable, IEnumerator
  {
      private int[] array;
