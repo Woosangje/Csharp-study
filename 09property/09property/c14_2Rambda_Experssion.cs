@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace c13_5Delegate_Anonymous
-{/*
+namespace c14_2Rambda_Experssion {
+    /*
    class MainApp
     {
         delegate int Calculate(int a, int b);
