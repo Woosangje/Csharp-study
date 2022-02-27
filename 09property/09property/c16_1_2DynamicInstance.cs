@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Reflection;
 
-namespace c16_1_2Reflection
-{
+namespace c16_1_2DynamicInstance {
+
 
     /*
     class Profile

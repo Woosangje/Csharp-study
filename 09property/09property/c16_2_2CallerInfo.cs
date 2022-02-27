@@ -1,57 +1,27 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
 namespace c16_1_3Reflection
-{/*
-    class Duck
-    {
-        public void Walk()
-        {
-            Console.WriteLine(this.GetType() + ".Walk");
+{
+    /*
+    public static class Trace {
+
+        public static void WriteLine(string message,
+            [CallerFilePath] string file ="",
+            [CallerLineNumber] int line =0,
+            [CallerMemberName] string member = "") {
+
+            Console.WriteLine("" +
+                "{0}(Line:{1}) {2}: {3}", file, line, member, message);
         }
 
-        public void Swim()
-        {
-            Console.WriteLine(this.GetType() + ".Swim");
-        }
-        public void Quack()
-        {
-            Console.WriteLine(this.GetType() + ".Quack");
-        }
-    }
-
-    class Mallard : Duck
-    { }
-
-    class Robot
-    {
-        public void Walk()
-        {Console.WriteLine("Robot.Walk");}
-
-        public void Swim()
-        {
-            Console.WriteLine("Robot.Swim");
-        }
-        public void Quack()
-        {
-            Console.WriteLine("Robot.Quack");
-        }
     }
 
     class MainApp
     {
         static void Main(string[] args)
         {
-            dynamic[] arr = new dynamic[] { new Duck(), new Mallard(), new Robot() };
-        
-            foreach(dynamic duck in arr)
-            {
-                Console.WriteLine(duck.GetType());
-                duck.Walk();
-                duck.Swim();
-                duck.Quack();
-
-                Console.WriteLine();
-            }
+            Trace.WriteLine("즐거운 프로그래밍!");
         }
 
     }*/
