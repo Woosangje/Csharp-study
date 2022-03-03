@@ -5,8 +5,8 @@ using System.Text;
 
 namespace CopyingArray
 {
- 
-  /*class MyList<T> {
+
+    /*class MyList<T> {
         private T[] array;
         public MyList() {
             array = new T[3];

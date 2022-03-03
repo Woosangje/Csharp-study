@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Collections;
 using System.Text;
 
-namespace UsingGenericList
-{
+namespace UsingGenericList {
     //Queue<T>
     /*class MainApp
       {

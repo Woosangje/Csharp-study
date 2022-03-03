@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace UsingGenericList
-{
+namespace UsingGenericList {
     //List<T>
     /*
        class MainApp
@@ -34,4 +33,5 @@ namespace UsingGenericList
             }
         }
        */
+
 }
