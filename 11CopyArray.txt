@@ -24,7 +24,7 @@ IEnumerator<T>
 
 boolean MoveNext()	다음 요소로 이동합니다. 컬렉션의 끝을 지난 경우에는 false, 이동이 성공한 경우에는 
 			true를 반환합니다.
-void Reset()		컬렉션의 첫 번째 위치를 "잎"로 이동합니다. 첫 번째 위치가 0번이라면, Reset()을 호출
+void Reset()		컬렉션의 첫 번째 위치를 "앞"로 이동합니다. 첫 번째 위치가 0번이라면, Reset()을 호출
 			하면 -1번으로 이동하는 것이죠, 첫 번째 위치로의 이동은 MoveNext()를 호출한 다음
 			에 이루어집니다.
 Object Current{get;}	컬렉션의 현재 요소를 반환합니다.(IEnumerator로부터 상속받은 프로퍼티)

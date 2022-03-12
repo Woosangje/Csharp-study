@@ -2,6 +2,7 @@
 using System.Linq;
 namespace c15_2_1LINQ
 {
+
     /*
     class MainApp
     {
