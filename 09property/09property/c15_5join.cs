@@ -2,6 +2,7 @@
 using System.Linq;
 
 namespace c15_4group_by {
+
     /*
     class Profile {
         public string Name { get; set; }

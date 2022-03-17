@@ -19,7 +19,7 @@ namespace c15_2_3FromFrom
             Class[] arrClass =
             {
                 new Class(){Name ="연두반", Score = new int[]{ 99, 80, 70, 24}},
-                new Class() { Name = "분횽반", Score = new int[] { 60, 45, 87, 72 } },
+                new Class() { Name = "분홍반", Score = new int[] { 60, 45, 87, 72 } },
                 new Class(){Name ="파랑반", Score = new int[]{92, 30, 85, 94}},
                 new Class(){Name ="노랑반", Score = new int[]{90, 88, 0, 17}}
             };

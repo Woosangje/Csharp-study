@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Linq;
-namespace c15_2_1LINQ
-{
+namespace c15_2_1From 
+ {
+
 
     /*
     class MainApp

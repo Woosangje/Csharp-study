@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 namespace c15_2_2SimpleLinq {
+
     /* class Profile
   {
       public string Name { get; set; }
