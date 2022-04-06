@@ -1,5 +1,5 @@
 # Csharp-study
-기초 c#공부 05/17
+기초 c#
 
 매크로 using System.Runtime.CompilerServices;
 
