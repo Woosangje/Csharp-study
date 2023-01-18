@@ -9,4 +9,5 @@
 필드변수도 new로 할당해 주어야함 <br/>
 예)                 employee[i] = new Employee {name=str }; <br/>
 
-
+23/01/17~18 
+c#공부 다시시작~ 
